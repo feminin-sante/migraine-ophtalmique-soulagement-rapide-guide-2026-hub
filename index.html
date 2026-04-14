@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Migraine Ophtalmique : Guide Complet 2026 — Féminin Santé</title>
+  <meta name="description" content="Guide expert 2026 sur la migraine ophtalmique : comprendre l'aura visuelle, soulager rapidement une crise, prévenir les rechutes. Conseils validés par des professionnels de santé." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://femininsante.com/migraine-ophtalmique/" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+
+  <style>
+    /* =============================================
+       DESIGN TOKENS — MAGAZINE SANTÉ FÉMININE 2026
+       ============================================= */
+    :root {
+      --rose:        #D4567A;
+      --rose-light:  #F5C6D3;
+      --rose-deep:   #9B2A4A;
+      --aubergine:   #3D1A2E;
+      --cream:       #FDF8F3;
+      --warm-white:  #FFFAF6;
+      --charcoal:    #2A1F28;
+      --mid-grey:    #7A6A75;
+      --border:      #EAD8DF;
+      --gold:        #C9962A;
+      --gold-light:  #F4DFA0;
+      --teal:        #3A8C7E;
+      --teal-light:  #B4DDD8;
+
+      --ff-serif:    'Cormorant Garamond', Georgia, serif;
+      --ff-display:  'Playfair Display', serif;
+      --ff-sans:     'DM Sans', system-ui, sans-serif;
+
+      --transition:  0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      --shadow-sm:   0 2px 12px rgba(61,26,46,.07);
+      --shadow-md:   0 8px 32px rgba(61,26,46,.12);
+      --shadow-lg:   0 20px 60px rgba(61,26,46,.18);
+      --radius:      14px;
+      --radius-lg:   22px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    body {
+      font-family: var(--ff-sans);
+      background: var(--cream);
+      color: var(--charcoal);
+      line-height: 1.75;
+      overflow-x: hidden;
+    }
+
+    /* ======= SCROLLBAR ======= */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--cream); }
+    ::-webkit-scrollbar-thumb { background: var(--rose); border-radius: 3px; }
+
+    /* ======= SELECTION ======= */
+    ::selection { background: var(--rose-light); color: var(--rose-deep); }
+
+    /* ======= CURSOR CUSTOM ======= */
+    .cursor-dot {
+      position: fixed; width: 8px; height: 8px;
+      background: var(--rose); border-radius: 50%;
+      pointer-events: none; z-index: 9999;
+      transition: transform 0.15s ease, opacity 0.3s ease;
+      transform: translate(-50%, -50%);
+    }
+    .cursor-ring {
+      position: fixed; width: 32px; height: 32px;
+      border: 1.5px solid var(--rose); border-radius: 50%;
+      pointer-events: none; z-index: 9998;
+      transition: transform 0.4s cubic-bezier(0.25,0.46,0.45,0.94), opacity 0.3s ease;
+      transform: translate(-50%, -50%);
+      opacity: 0.5;
+    }
+
+    /* ======= HEADER ======= */
+    .site-header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(253,248,243,.95);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 5vw;
+    }
+    .header-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 70px; gap: 20px;
+    }
+    .logo-wrap img {
+      height: 44px; width: auto;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,.1));
+      transition: transform var(--transition);
+    }
+    .logo-wrap img:hover { transform: scale(1.04); }
+    .header-badge {
+      background: var(--rose); color: #fff;
+      font-family: var(--ff-sans); font-size: .72rem;
+      font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+      padding: 5px 14px; border-radius: 100px;
+      animation: pulse-badge 2.5s ease-in-out infinite;
+    }
+    @keyframes pulse-badge {
+      0%,100% { box-shadow: 0 0 0 0 rgba(212,86,122,.4); }
+      50% { box-shadow: 0 0 0 8px rgba(212,86,122,0); }
+    }
+
+    /* ======= HERO ======= */
+    .hero {
+      position: relative; overflow: hidden;
+      min-height: min(90vh, 700px);
+      display: flex; align-items: flex-end;
+      padding: 0 5vw 64px;
+    }
+    .hero-bg {
+      position: absolute; inset: 0;
+      background-image: url('https://femininsante.com/wp-content/uploads/2026/04/soulager-migraine-ophtalmique-reflexes-rapides.webp');
+      background-size: cover; background-position: center top;
+      transform: scale(1.05);
+      transition: transform 8s ease;
+    }
+    .hero-bg::after {
+      content: '';
+      position: absolute; inset: 0;
+      background: linear-gradient(
+        165deg,
+        rgba(61,26,46,.72) 0%,
+        rgba(61,26,46,.45) 45%,
+        rgba(155,42,74,.7) 100%
+      );
+    }
+    .hero-overlay-pattern {
+      position: absolute; inset: 0;
+      background-image: radial-gradient(ellipse at 20% 80%, rgba(201,150,42,.15) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .hero-content {
+      position: relative; z-index: 2;
+      max-width: 780px;
+    }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-family: var(--ff-sans); font-size: .78rem; font-weight: 600;
+      letter-spacing: .15em; text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 18px;
+    }
+    .hero-eyebrow::before {
+      content: ''; display: block; width: 28px; height: 1.5px;
+      background: var(--gold-light);
+    }
+    .hero-title {
+      font-family: var(--ff-display);
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 700; font-style: italic;
+      line-height: 1.18;
+      color: #fff;
+      margin-bottom: 20px;
+      text-shadow: 0 2px 20px rgba(0,0,0,.3);
+    }
+    .hero-title em { font-style: normal; color: var(--gold-light); }
+    .hero-subtitle {
+      font-family: var(--ff-sans); font-size: clamp(.95rem, 1.8vw, 1.15rem);
+      color: rgba(255,255,255,.88); line-height: 1.65;
+      max-width: 620px; margin-bottom: 32px;
+    }
+    .hero-meta {
+      display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
+    }
+    .author-chip {
+      display: flex; align-items: center; gap: 10px;
+    }
+    .author-avatar {
+      width: 38px; height: 38px; border-radius: 50%;
+      border: 2px solid var(--gold-light);
+      object-fit: cover;
+    }
+    .author-info { display: flex; flex-direction: column; }
+    .author-name { font-size: .85rem; font-weight: 600; color: #fff; }
+    .author-role { font-size: .72rem; color: rgba(255,255,255,.65); }
+    .hero-divider { width: 1px; height: 32px; background: rgba(255,255,255,.3); }
+    .hero-stats { display: flex; gap: 16px; }
+    .stat-item { text-align: center; }
+    .stat-num { display: block; font-size: .9rem; font-weight: 700; color: var(--gold-light); }
+    .stat-label { font-size: .68rem; color: rgba(255,255,255,.6); text-transform: uppercase; letter-spacing: .06em; }
+
+    /* ======= PROGRESS BAR ======= */
+    .reading-progress {
+      position: fixed; top: 0; left: 0; z-index: 200;
+      height: 3px; width: 0%;
+      background: linear-gradient(90deg, var(--rose), var(--gold));
+      transition: width .1s linear;
+    }
+
+    /* ======= LAYOUT ======= */
+    .page-wrapper {
+      max-width: 1200px; margin: 0 auto;
+      padding: 0 5vw;
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 48px;
+      align-items: start;
+      padding-top: 60px; padding-bottom: 80px;
+    }
+    @media (max-width: 900px) {
+      .page-wrapper { grid-template-columns: 1fr; }
+      .sidebar { display: none; }
+    }
+
+    /* ======= ARTICLE TYPOGRAPHY ======= */
+    .article-body { min-width: 0; }
+
+    .intro-card {
+      background: linear-gradient(135deg, var(--rose-deep) 0%, var(--aubergine) 100%);
+      border-radius: var(--radius-lg); padding: 36px 40px;
+      color: #fff; margin-bottom: 52px;
+      position: relative; overflow: hidden;
+    }
+    .intro-card::before {
+      content: '⚕'; position: absolute;
+      right: 30px; top: 20px;
+      font-size: 80px; opacity: .1; line-height: 1;
+    }
+    .intro-card p {
+      font-family: var(--ff-serif); font-size: 1.2rem;
+      line-height: 1.75; color: rgba(255,255,255,.92);
+    }
+    .intro-card strong { color: var(--gold-light); }
+
+    /* section headings */
+    .section-heading {
+      font-family: var(--ff-display);
+      font-size: clamp(1.55rem, 3vw, 2.1rem);
+      font-weight: 700; line-height: 1.2;
+      color: var(--aubergine); margin-bottom: 18px;
+      position: relative; padding-bottom: 14px;
+    }
+    .section-heading::after {
+      content: ''; position: absolute;
+      bottom: 0; left: 0;
+      width: 44px; height: 3px;
+      background: linear-gradient(90deg, var(--rose), var(--gold));
+      border-radius: 2px;
+    }
+    .section-heading.question-style {
+      background: linear-gradient(135deg, var(--rose-deep), var(--rose));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subsection-heading {
+      font-family: var(--ff-serif);
+      font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+      font-weight: 600; font-style: italic;
+      color: var(--rose-deep); margin: 30px 0 14px;
+    }
+
+    p {
+      font-size: 1.02rem; line-height: 1.82;
+      color: #3A2D38; margin-bottom: 18px;
+    }
+
+    /* Anchor links */
+    a {
+      color: var(--rose-deep);
+      text-decoration: underline;
+      text-decoration-color: var(--rose-light);
+      text-underline-offset: 3px;
+      font-weight: 600;
+      transition: color var(--transition), text-decoration-color var(--transition);
+    }
+    a:hover {
+      color: var(--rose);
+      text-decoration-color: var(--rose);
+    }
+
+    /* ======= CONTENT SECTIONS ======= */
+    .content-section { margin-bottom: 56px; }
+
+    /* feature image */
+    .feature-image-wrap {
+      border-radius: var(--radius-lg); overflow: hidden;
+      margin: 28px 0 36px;
+      box-shadow: var(--shadow-md);
+      position: relative;
+    }
+    .feature-image-wrap img {
+      width: 100%; height: auto; display: block;
+      transition: transform 0.7s ease;
+    }
+    .feature-image-wrap:hover img { transform: scale(1.025); }
+    .image-caption {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      padding: 12px 20px;
+      background: linear-gradient(0deg, rgba(61,26,46,.85) 0%, transparent 100%);
+      font-size: .78rem; color: rgba(255,255,255,.85);
+      font-family: var(--ff-sans); font-style: italic;
+    }
+
+    /* ======= HIGHLIGHT BOXES ======= */
+    .highlight-box {
+      border-radius: var(--radius); padding: 24px 28px;
+      margin: 28px 0;
+      border-left: 4px solid;
+    }
+    .highlight-box.rose {
+      background: linear-gradient(135deg, rgba(212,86,122,.08), rgba(245,198,211,.15));
+      border-color: var(--rose);
+    }
+    .highlight-box.gold {
+      background: linear-gradient(135deg, rgba(201,150,42,.08), rgba(244,223,160,.2));
+      border-color: var(--gold);
+    }
+    .highlight-box.teal {
+      background: linear-gradient(135deg, rgba(58,140,126,.08), rgba(180,221,216,.2));
+      border-color: var(--teal);
+    }
+    .highlight-box.danger {
+      background: linear-gradient(135deg, rgba(155,42,74,.08), rgba(155,42,74,.05));
+      border-color: var(--rose-deep);
+    }
+    .highlight-box h4 {
+      font-family: var(--ff-serif); font-size: 1.1rem;
+      font-weight: 600; margin-bottom: 8px;
+      color: var(--aubergine);
+    }
+    .highlight-box p { margin-bottom: 0; font-size: .97rem; }
+
+    /* ======= FACT CARDS ======= */
+    .fact-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 18px; margin: 28px 0;
+    }
+    .fact-card {
+      background: var(--warm-white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 20px; text-align: center;
+      box-shadow: var(--shadow-sm);
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+    .fact-card:hover {
+      transform: translateY(-4px); box-shadow: var(--shadow-md);
+    }
+    .fact-card .fact-icon { font-size: 2rem; margin-bottom: 8px; display: block; }
+    .fact-card .fact-num {
+      font-family: var(--ff-display); font-size: 1.7rem;
+      font-weight: 700; color: var(--rose-deep); display: block;
+    }
+    .fact-card .fact-desc {
+      font-size: .8rem; color: var(--mid-grey); line-height: 1.4;
+      margin-bottom: 0;
+    }
+
+    /* ======= STEP LIST ======= */
+    .step-list { list-style: none; counter-reset: steps; }
+    .step-list li {
+      counter-increment: steps;
+      display: flex; align-items: flex-start; gap: 16px;
+      margin-bottom: 18px; padding: 18px 20px;
+      background: var(--warm-white); border-radius: var(--radius);
+      border: 1px solid var(--border);
+      transition: border-color var(--transition), box-shadow var(--transition);
+    }
+    .step-list li:hover {
+      border-color: var(--rose-light); box-shadow: var(--shadow-sm);
+    }
+    .step-list li::before {
+      content: counter(steps);
+      flex-shrink: 0; width: 32px; height: 32px;
+      background: linear-gradient(135deg, var(--rose), var(--rose-deep));
+      color: #fff; font-weight: 700; font-size: .85rem;
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      margin-top: 2px;
+    }
+    .step-list li .step-content strong {
+      display: block; font-size: .98rem; margin-bottom: 4px; color: var(--aubergine);
+    }
+    .step-list li .step-content p { margin-bottom: 0; font-size: .92rem; }
+
+    /* ======= SYMPTOM TAG CLOUD ======= */
+    .tag-cloud { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+    .symptom-tag {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 7px 16px; border-radius: 100px;
+      font-size: .83rem; font-weight: 500;
+      background: var(--rose-light); color: var(--rose-deep);
+      border: 1px solid rgba(212,86,122,.3);
+      transition: background var(--transition), transform var(--transition);
+    }
+    .symptom-tag:hover { background: var(--rose); color: #fff; transform: scale(1.04); }
+
+    /* ======= QUOTE PULL ======= */
+    .pull-quote {
+      border-top: 2px solid var(--rose);
+      border-bottom: 2px solid var(--rose);
+      padding: 28px 32px; margin: 36px 0;
+      position: relative;
+    }
+    .pull-quote::before {
+      content: '\201C';
+      font-family: var(--ff-display); font-size: 6rem;
+      color: var(--rose-light); line-height: 1;
+      position: absolute; top: -10px; left: 20px;
+    }
+    .pull-quote blockquote {
+      font-family: var(--ff-serif); font-size: 1.25rem;
+      font-style: italic; color: var(--aubergine); line-height: 1.6;
+      padding-left: 36px;
+    }
+    .pull-quote cite {
+      display: block; margin-top: 12px; padding-left: 36px;
+      font-size: .82rem; font-style: normal;
+      color: var(--mid-grey); font-family: var(--ff-sans);
+    }
+
+    /* ======= TABLE ======= */
+    .comparison-table {
+      width: 100%; border-collapse: collapse;
+      margin: 28px 0; border-radius: var(--radius);
+      overflow: hidden; box-shadow: var(--shadow-sm);
+    }
+    .comparison-table th {
+      background: linear-gradient(135deg, var(--aubergine), var(--rose-deep));
+      color: #fff; padding: 14px 18px;
+      font-family: var(--ff-sans); font-size: .88rem;
+      font-weight: 600; text-align: left;
+    }
+    .comparison-table td {
+      padding: 12px 18px; font-size: .9rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .comparison-table tr:nth-child(even) td { background: rgba(253,248,243,.7); }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table tr:hover td { background: var(--rose-light); }
+
+    /* ======= CTA SECTION ======= */
+    .cta-banner {
+      background: linear-gradient(135deg, var(--aubergine) 0%, var(--rose-deep) 100%);
+      border-radius: var(--radius-lg); padding: 40px 44px;
+      text-align: center; margin: 48px 0;
+      position: relative; overflow: hidden;
+    }
+    .cta-banner::before {
+      content: '';
+      position: absolute; top: -40px; right: -40px;
+      width: 200px; height: 200px;
+      background: radial-gradient(circle, rgba(201,150,42,.25), transparent 70%);
+      border-radius: 50%;
+    }
+    .cta-banner h3 {
+      font-family: var(--ff-display); font-size: 1.7rem;
+      font-style: italic; color: #fff; margin-bottom: 12px;
+    }
+    .cta-banner p { color: rgba(255,255,255,.82); margin-bottom: 24px; font-size: 1rem; }
+    .cta-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: linear-gradient(135deg, var(--gold), #e8b22e);
+      color: var(--aubergine); padding: 14px 32px;
+      border-radius: 100px; font-weight: 700; font-size: .95rem;
+      text-decoration: none; border: none; cursor: pointer;
+      transition: transform var(--transition), box-shadow var(--transition);
+      box-shadow: 0 4px 20px rgba(201,150,42,.4);
+    }
+    .cta-btn:hover {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 8px 30px rgba(201,150,42,.55);
+      color: var(--aubergine);
+      text-decoration: none;
+    }
+
+    /* ======= BACKLINKS / ANCRES ======= */
+    .backlink-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px; margin: 28px 0;
+    }
+    .backlink-card {
+      background: var(--warm-white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 18px 20px;
+      display: flex; align-items: flex-start; gap: 12px;
+      transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+      text-decoration: none; color: inherit;
+    }
+    .backlink-card:hover {
+      border-color: var(--rose); transform: translateY(-2px);
+      box-shadow: var(--shadow-md); text-decoration: none; color: inherit;
+    }
+    .backlink-card .bl-icon {
+      width: 38px; height: 38px; border-radius: 10px;
+      background: linear-gradient(135deg, var(--rose-light), rgba(212,86,122,.2));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; flex-shrink: 0;
+    }
+    .backlink-card .bl-text strong {
+      display: block; font-size: .88rem; color: var(--rose-deep);
+      font-weight: 600; margin-bottom: 3px; line-height: 1.3;
+    }
+    .backlink-card .bl-text span {
+      font-size: .78rem; color: var(--mid-grey); font-style: italic;
+    }
+
+    /* ======= SIDEBAR ======= */
+    .sidebar { position: sticky; top: 90px; }
+    .toc-widget {
+      background: var(--warm-white); border: 1px solid var(--border);
+      border-radius: var(--radius-lg); padding: 24px 22px;
+      box-shadow: var(--shadow-sm); margin-bottom: 28px;
+    }
+    .toc-widget h5 {
+      font-family: var(--ff-serif); font-size: 1.05rem;
+      color: var(--rose-deep); margin-bottom: 16px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .toc-list { list-style: none; }
+    .toc-list li {
+      margin-bottom: 8px;
+      border-bottom: 1px dashed var(--border);
+      padding-bottom: 8px;
+    }
+    .toc-list li:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    .toc-list a {
+      font-size: .83rem; color: var(--charcoal);
+      text-decoration: none; font-weight: 400;
+      display: flex; align-items: flex-start; gap: 6px;
+      transition: color var(--transition);
+    }
+    .toc-list a::before { content: '→'; color: var(--rose); flex-shrink: 0; font-size: .8rem; }
+    .toc-list a:hover { color: var(--rose-deep); }
+
+    .author-widget {
+      background: linear-gradient(135deg, var(--aubergine), var(--rose-deep));
+      border-radius: var(--radius-lg); padding: 24px;
+      text-align: center; color: #fff;
+    }
+    .author-widget img {
+      width: 70px; height: 70px; border-radius: 50%;
+      border: 3px solid var(--gold-light); margin-bottom: 12px;
+      object-fit: cover;
+    }
+    .author-widget h5 { font-family: var(--ff-serif); font-size: 1rem; margin-bottom: 4px; }
+    .author-widget p { font-size: .8rem; color: rgba(255,255,255,.75); margin-bottom: 0; line-height: 1.5; }
+
+    /* ======= FOOTER ======= */
+    .site-footer {
+      background: var(--aubergine); color: rgba(255,255,255,.75);
+      padding: 48px 5vw 28px;
+      text-align: center;
+    }
+    .footer-logo img { height: 38px; margin-bottom: 16px; filter: brightness(0) invert(1); opacity: .85; }
+    .footer-text { font-size: .85rem; line-height: 1.7; max-width: 560px; margin: 0 auto 20px; }
+    .footer-links { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 16px; }
+    .footer-links a { font-size: .82rem; color: rgba(255,255,255,.6); text-decoration: none; transition: color var(--transition); }
+    .footer-links a:hover { color: var(--gold-light); }
+    .footer-copy { font-size: .76rem; color: rgba(255,255,255,.35); }
+
+    /* ======= ANIMATIONS ======= */
+    .fade-in {
+      opacity: 0; transform: translateY(28px);
+      transition: opacity .65s ease, transform .65s ease;
+    }
+    .fade-in.visible { opacity: 1; transform: none; }
+    .fade-in-left {
+      opacity: 0; transform: translateX(-28px);
+      transition: opacity .65s ease, transform .65s ease;
+    }
+    .fade-in-left.visible { opacity: 1; transform: none; }
+
+    /* aura visual shimmer on hero */
+    @keyframes aura-shimmer {
+      0%   { opacity: .12; transform: scale(1) rotate(0deg); }
+      50%  { opacity: .22; transform: scale(1.08) rotate(3deg); }
+      100% { opacity: .12; transform: scale(1) rotate(0deg); }
+    }
+    .aura-particle {
+      position: absolute; border-radius: 50%;
+      pointer-events: none;
+      animation: aura-shimmer 4s ease-in-out infinite;
+    }
+
+    /* ======= MOBILE ======= */
+    @media (max-width: 600px) {
+      .hero { padding-bottom: 44px; min-height: 75vw; }
+      .intro-card { padding: 24px 22px; }
+      .intro-card p { font-size: 1.05rem; }
+      .pull-quote { padding: 20px 18px; }
+      .pull-quote blockquote { font-size: 1.1rem; padding-left: 24px; }
+      .pull-quote::before { font-size: 4rem; }
+      .cta-banner { padding: 28px 22px; }
+      .comparison-table th, .comparison-table td { padding: 10px 12px; font-size: .8rem; }
+      .page-wrapper { padding: 0 4vw; padding-top: 40px; padding-bottom: 60px; }
+    }
+    @media (max-width: 768px) {
+      .header-inner { height: 60px; }
+      .hero-bg { transform: none; }
+    }
+
+    /* ======= DISAMBIGUATION ======= */
+    .expert-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: .78rem; font-weight: 600; text-transform: uppercase;
+      letter-spacing: .07em; color: var(--teal);
+      background: rgba(58,140,126,.1); border: 1px solid rgba(58,140,126,.3);
+      padding: 4px 12px; border-radius: 100px; margin-bottom: 12px;
+    }
+    .expert-badge::before { content: '✓'; font-size: .9rem; }
+
+    /* floating particles bg */
+    .particles-bg {
+      position: fixed; inset: 0; pointer-events: none; z-index: -1; overflow: hidden;
+    }
+    .p-dot {
+      position: absolute; border-radius: 50%;
+      background: radial-gradient(circle, var(--rose-light), transparent);
+      opacity: 0; animation: float-particle linear infinite;
+    }
+    @keyframes float-particle {
+      0%   { opacity: 0; transform: translateY(0); }
+      10%  { opacity: .15; }
+      90%  { opacity: .08; }
+      100% { opacity: 0; transform: translateY(-100vh); }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Reading progress -->
+  <div class="reading-progress" id="readingProgress"></div>
+
+  <!-- Floating particles -->
+  <div class="particles-bg" id="particlesBg"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="https://femininsante.com/" class="logo-wrap" aria-label="Féminin Santé — Accueil">
+        <img src="http://femininsante.com/wp-content/uploads/2026/04/logo-feminin-sante-magazine-2026.png"
+             alt="Logo Féminin Santé Magazine 2026" />
+      </a>
+      <span class="header-badge">Guide Santé 2026</span>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-bg" id="heroBg" aria-hidden="true"></div>
+    <div class="hero-overlay-pattern" aria-hidden="true"></div>
+
+    <!-- Aura particles -->
+    <div class="aura-particle" style="width:180px;height:180px;top:15%;right:8%;background:radial-gradient(circle,rgba(212,86,122,.35),transparent 70%);"></div>
+    <div class="aura-particle" style="width:120px;height:120px;top:55%;right:25%;background:radial-gradient(circle,rgba(201,150,42,.25),transparent 70%);animation-delay:1.5s;"></div>
+    <div class="aura-particle" style="width:90px;height:90px;top:25%;left:55%;background:radial-gradient(circle,rgba(255,255,255,.2),transparent 70%);animation-delay:2.8s;"></div>
+
+    <div class="hero-content fade-in" id="heroContent">
+      <p class="hero-eyebrow">Féminin Santé · Santé Neurologique · 2026</p>
+      <h1 class="hero-title" id="hero-title">
+        Migraine Ophtalmique :<br/>
+        <em>le guide expert</em> pour comprendre,<br/>
+        soulager et prévenir en 2026
+      </h1>
+      <p class="hero-subtitle">
+        Scotome scintillant, aura visuelle, douleur pulsatile derrière l'œil — la migraine ophtalmique
+        bouleverse votre quotidien en quelques minutes. Ce guide exhaustif, rédigé avec l'appui de
+        sources médicales validées, vous donne les clés pour agir vite, prévenir durablement et
+        retrouver la plénitude visuelle.
+      </p>
+      <div class="hero-meta">
+        <div class="author-chip">
+          <img src="https://femininsante.com/wp-content/uploads/2026/03/Patricia-Uget-%E2%80%94-Journaliste-feminin-Sante.webp"
+               alt="Patricia Uget, journaliste santé Féminin Santé" class="author-avatar" />
+          <div class="author-info">
+            <span class="author-name">Patricia Uget</span>
+            <span class="author-role">Journaliste Santé · Féminin Santé</span>
+          </div>
+        </div>
+        <div class="hero-divider" aria-hidden="true"></div>
+        <div class="hero-stats">
+          <div class="stat-item"><span class="stat-num">17 min</span><span class="stat-label">lecture</span></div>
+          <div class="stat-item"><span class="stat-num">Avr. 2026</span><span class="stat-label">mis à jour</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <div class="page-wrapper">
+
+    <main class="article-body" id="main-content">
+
+      <!-- INTRO -->
+      <div class="intro-card fade-in">
+        <span class="expert-badge">Contenu vérifié par des experts médicaux</span>
+        <p>
+          La <strong>migraine ophtalmique</strong> — également désignée migraine avec aura visuelle — touche
+          <strong>environ 12 % de la population féminine</strong> en France, avec une prévalence nettement
+          supérieure chez les femmes entre 25 et 50 ans. Derrière ce terme se cache un mécanisme
+          neurologique sophistiqué qui, mal compris, devient une source d'angoisse et de désorganisation
+          profonde du quotidien. Ce guide vous propose une plongée dans la physiologie de la crise,
+          des protocoles d'intervention d'urgence, une boîte à outils de prévention validée par la
+          recherche clinique récente, et les signaux d'alerte qui imposent une consultation médicale immédiate.
+        </p>
+      </div>
+
+      <!-- SECTION 1 : COMPRENDRE -->
+      <section class="content-section fade-in" id="section-comprendre">
+        <h2 class="section-heading">Comprendre les causes des troubles visuels migraineux</h2>
+        <span class="expert-badge">Neurologie fondamentale</span>
+
+        <p>
+          Pour <a href="https://femininsante.com/migraine-ophtalmique/" title="Soulager une migraine ophtalmique — Guide complet Féminin Santé">soulager une migraine ophtalmique</a> efficacement,
+          il faut d'abord en cartographier l'origine. La crise s'initie dans le cortex visuel occipital
+          sous l'effet d'une vague de dépolarisation neuronale progressive, connue sous le nom de
+          <em>Cortical Spreading Depression</em> (CSD). Cette dépolarisation entraîne une vasoconstriction
+          transitoire suivie d'une vasodilatation, généralement à l'origine de la cascade algique.
+        </p>
+
+        <div class="fact-grid fade-in">
+          <div class="fact-card">
+            <span class="fact-icon">🧠</span>
+            <span class="fact-num">~4 mm/min</span>
+            <p class="fact-desc">Vitesse de propagation de la vague CSD dans le cortex</p>
+          </div>
+          <div class="fact-card">
+            <span class="fact-icon">⏱️</span>
+            <span class="fact-num">5–60 min</span>
+            <p class="fact-desc">Durée typique de la phase d'aura visuelle</p>
+          </div>
+          <div class="fact-card">
+            <span class="fact-icon">👁️</span>
+            <span class="fact-num">85 %</span>
+            <p class="fact-desc">Des auras se manifestent par des phénomènes visuels (scotome, phosphènes)</p>
+          </div>
+          <div class="fact-card">
+            <span class="fact-icon">♀️</span>
+            <span class="fact-num">3×</span>
+            <p class="fact-desc">Les femmes sont trois fois plus touchées que les hommes</p>
+          </div>
+        </div>
+
+        <p>
+          Pour <a href="https://femininsante.com/migraine-ophtalmique/" title="Différence entre migraine classique et migraine avec aura">comprendre la différence entre migraine classique et migraine avec aura</a>,
+          il est essentiel de distinguer deux entités nosologiques bien séparées : la migraine sans aura
+          (anciennement « migraine commune ») se manifeste par une céphalée pulsatile unilatérale sans
+          prodrome neurologique visible, tandis que la migraine avec aura s'accompagne systématiquement
+          de signes précurseurs neurologiques réversibles — photopsies, scotome scintillant, paresthésies,
+          plus rarement troubles du langage — apparaissant généralement 20 à 60 minutes avant la douleur.
+        </p>
+
+        <div class="feature-image-wrap fade-in">
+          <img src="https://femininsante.com/wp-content/uploads/2026/04/soulager-migraine-ophtalmique-reflexes-rapides.webp"
+               alt="Femme apaisée appliquant une compresse froide sur les yeux pour calmer une migraine ophtalmique"
+               loading="lazy" width="1200" height="670" />
+          <p class="image-caption">© Féminin Santé 2026 — Soulagement d'une crise de migraine ophtalmique</p>
+        </div>
+
+        <h3 class="subsection-heading">Les déclencheurs les plus fréquents en 2026</h3>
+        <p>
+          La recherche épidémiologique de 2026 met en évidence un spectre élargi de déclencheurs,
+          souvent cumulatifs. Parmi les principaux facteurs identifiés figurent la perturbation
+          des cycles circadiens, la déshydratation chronique subclinique, la surexposition aux
+          écrans LED haute luminosité, les fluctuations hormonales liées au cycle menstruel,
+          et les épisodes de stress psychosocial intense. L'impact des nouvelles technologies
+          mérite une attention particulière : selon plusieurs études récentes, l'<a href="https://femininsante.com/migraine-ophtalmique/" title="Impact de la lumière bleue sur les migraines répétitives">impact de la lumière bleue sur les migraines répétitives</a>
+          est aujourd'hui considéré comme un facteur de risque indépendant, notamment dans les
+          environnements de travail numérique à forte intensité.
+        </p>
+
+        <div class="tag-cloud fade-in" role="list" aria-label="Déclencheurs fréquents">
+          <span class="symptom-tag" role="listitem">💧 Déshydratation</span>
+          <span class="symptom-tag" role="listitem">📱 Lumière bleue</span>
+          <span class="symptom-tag" role="listitem">😴 Manque de sommeil</span>
+          <span class="symptom-tag" role="listitem">🧘 Stress aigu</span>
+          <span class="symptom-tag" role="listitem">🍷 Alcool / tyramine</span>
+          <span class="symptom-tag" role="listitem">🌡️ Changements climatiques</span>
+          <span class="symptom-tag" role="listitem">♀️ Fluctuations hormonales</span>
+          <span class="symptom-tag" role="listitem">☕ Sevrage caféine</span>
+        </div>
+      </section>
+
+      <!-- SECTION 2 : RÉFLEXES URGENCE -->
+      <section class="content-section fade-in" id="section-urgence">
+        <h2 class="section-heading question-style">Comment stopper une migraine avec aura naturellement ?</h2>
+
+        <p>
+          Dès les premières manifestations visuelles — cette arc-en-ciel lumineux caractéristique
+          qui scintille en périphérie du champ visuel — une fenêtre d'intervention précieuse
+          s'ouvre. Voici les <a href="https://femininsante.com/migraine-ophtalmique/" title="Réflexes d'urgence en cas de scotome scintillant">réflexes d'urgence en cas de scotome scintillant</a>
+          que toute migraineuse devrait maîtriser.
+        </p>
+
+        <ol class="step-list fade-in">
+          <li>
+            <div class="step-content">
+              <strong>Mise en situation protégée immédiate</strong>
+              <p>Éteindre ou tamiser toutes sources lumineuses, s'isoler dans un espace calme, poser les
+              écrans. L'objectif est de réduire la charge sensorielle totale sur le système nerveux central
+              dans les 5 premières minutes suivant l'apparition de l'aura.</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-content">
+              <strong>Hydratation forcée et minéralisante</strong>
+              <p>Boire immédiatement 250 à 350 ml d'eau minérale riche en magnésium (Hépar, Contrex).
+              La déficience en magnésium est retrouvée chez 50 % des migraineux au moment de la crise ;
+              une correction rapide peut moduler l'intensité douloureuse.</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-content">
+              <strong>Application thermique ciblée</strong>
+              <p>Compresse froide sur la nuque (vasoconstriction) combinée à une bouillotte tiède sur
+              les pieds (redistribution vasculaire périphérique). Cette approche bimodale issue de la
+              réflexologie vasculaire est soutenue par plusieurs études cliniques de faible à moyenne
+              intensité.</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-content">
+              <strong>Prise médicamenteuse précoce</strong>
+              <p>Si un traitement de crise a été prescrit (triptan, AINS), le prendre dès les premières
+              minutes de l'aura. L'efficacité des triptans diminue significativement si l'administration
+              est retardée au-delà de 30 minutes après le début des symptômes.</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-content">
+              <strong>Stimulation du point GI4</strong>
+              <p>Acupression sur le point Hé-Gŭ (gros intestin 4), situé dans le creux entre le pouce
+              et l'index : une pression ferme de 2 à 3 minutes peut moduler la perception douloureuse
+              via les voies endorphiniques.</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="highlight-box rose fade-in">
+          <h4>⚡ Point clé pour soulager rapidement une crise</h4>
+          <p>
+            Pour <a href="https://femininsante.com/migraine-ophtalmique/" title="Soulager rapidement une crise de migraine ophtalmique">soulager rapidement une crise de migraine ophtalmique</a>,
+            la combinaison « repos sensoriel + hydratation magnésique + froid nuque » dans les
+            10 premières minutes après l'aura est l'intervention non médicamenteuse la plus
+            documentée pour réduire l'intensité douloureuse de 30 à 50 %.
+          </p>
+        </div>
+
+        <div class="feature-image-wrap fade-in">
+          <img src="https://femininsante.com/wp-content/uploads/2026/04/remede-naturel-soulager-migraine-ophtalmique.webp"
+               alt="Remèdes naturels pour soulager la migraine ophtalmique : tisanes, compresses et aromathérapie"
+               loading="lazy" width="900" height="600" />
+          <p class="image-caption">© Féminin Santé 2026 — Arsenal de remèdes naturels contre la migraine</p>
+        </div>
+      </section>
+
+      <!-- SECTION 3 : RESPIRATION -->
+      <section class="content-section fade-in" id="section-respiration">
+        <h2 class="section-heading question-style">Exercices de respiration pour apaiser les céphalées visuelles</h2>
+
+        <p>
+          La douleur migraineuse active de manière réflexe le système nerveux sympathique, amplifiant
+          la vasoconstriction cérébrale et alimentant un cercle vicieux neuro-vasculaire. Les
+          <a href="https://femininsante.com/migraine-ophtalmique/" title="Exercices de respiration pour apaiser les céphalées visuelles">exercices de respiration pour apaiser les céphalées visuelles</a>
+          agissent précisément en activant le nerf vague, bascule parasympathique qui réduit la
+          pression artérielle, diminue le cortisol et favorise la vasodilatation.
+        </p>
+
+        <div class="highlight-box teal fade-in">
+          <h4>🌬️ Technique 4-7-8 (Dr Andrew Weil)</h4>
+          <p>
+            Inspirez par le nez pendant <strong>4 secondes</strong>, retenez votre souffle <strong>7 secondes</strong>,
+            puis expirez lentement par la bouche sur <strong>8 secondes</strong>. Répétez 4 cycles.
+            Cette technique stimule directement le nerf vague et peut abaisser la pression artérielle
+            systolique de 5 à 10 mmHg en moins de 3 minutes.
+          </p>
+        </div>
+
+        <div class="highlight-box gold fade-in">
+          <h4>🫁 Cohérence cardiaque (5 minutes)</h4>
+          <p>
+            6 respirations par minute (5 secondes inspiration / 5 secondes expiration) pendant
+            5 minutes consécutives. La cohérence cardiaque est cliniquement validée pour réduire
+            les marqueurs inflammatoires et améliorer la variabilité de la fréquence cardiaque —
+            deux paramètres directement impliqués dans la physiopathologie migraineuse.
+          </p>
+        </div>
+
+        <p>
+          L'intégration quotidienne de ces pratiques, idéalement aux mêmes horaires (matin, midi, soir),
+          constitue un pilier central de l'<a href="https://femininsante.com/migraine-ophtalmique/" title="Adopter une routine anti-migraine au quotidien">adoption d'une routine anti-migraine au quotidien</a>. La régularité
+          prime sur la durée : trois sessions de 5 minutes valent davantage qu'une session de 30 minutes
+          sporadique.
+        </p>
+      </section>
+
+      <!-- SECTION 4 : NEUROSCIENCE -->
+      <section class="content-section fade-in" id="section-neurologie">
+        <h2 class="section-heading">Résilience neurologique et mécanismes de la douleur oculaire</h2>
+
+        <p>
+          La <a href="https://femininsante.com/migraine-ophtalmique/" title="Résilience neurologique et mécanismes de la douleur oculaire">résilience neurologique face aux mécanismes de la douleur oculaire</a>
+          est un domaine en plein essor. La neuroplasticité — capacité du cerveau à remodeler ses
+          circuits — offre des perspectives thérapeutiques prometteuses pour les migraineuses chroniques.
+          Des études récentes en neuro-imagerie fonctionnelle (fMRI) montrent que les pratiques de
+          pleine conscience soutenues sur 8 semaines peuvent modifier structurellement le cortex
+          préfrontal et l'insula, deux régions clés dans la modulation de la douleur.
+        </p>
+
+        <div class="pull-quote fade-in">
+          <blockquote>
+            « La migraine n'est pas une "simple" céphalée. C'est une maladie neurologique complexe
+            qui implique des réseaux cérébraux aussi vastes que le système limbique, le thalamus et
+            le cortex sensoriel primaire. La prendre en charge, c'est traiter le cerveau dans son
+            intégralité. »
+          </blockquote>
+          <cite>— Pr. N. Latarche, neurologue spécialisée en céphalologie (source : Société Française d'Étude des Migraines, 2025)</cite>
+        </div>
+
+        <p>
+          Sur le plan biochimique, les migraineuses chroniques présentent fréquemment un déficit
+          en magnésium intracellulaire, une hyperactivité glutamatergique et une sensibilisation
+          centrale des voies trigémino-vasculaires. Ces mécanismes expliquent pourquoi les crises
+          peuvent s'intensifier avec le temps et pourquoi la prévention de fond est souvent plus
+          efficace que le traitement de crise seul.
+        </p>
+
+        <div class="feature-image-wrap fade-in">
+          <img src="https://femininsante.com/wp-content/uploads/2026/04/fatigue-numerique-declencheur-migraine-ophtalmique.webp"
+               alt="Fatigue numérique et lumière bleue des écrans comme déclencheur de migraine ophtalmique"
+               loading="lazy" width="900" height="600" />
+          <p class="image-caption">© Féminin Santé 2026 — Fatigue numérique : un déclencheur majeur à ne pas négliger</p>
+        </div>
+      </section>
+
+      <!-- SECTION 5 : ÉCRANS -->
+      <section class="content-section fade-in" id="section-ecrans">
+        <h2 class="section-heading question-style">Astuces pour limiter la fatigue oculaire devant les écrans</h2>
+
+        <p>
+          À l'heure où le temps d'écran moyen dépasse les 9 heures quotidiennes pour les actifs
+          en télétravail, les <a href="https://femininsante.com/migraine-ophtalmique/" title="Astuces pour limiter la fatigue oculaire devant les écrans">astuces pour limiter la fatigue oculaire devant les écrans</a>
+          sont devenues un enjeu de santé publique. La règle des 20-20-20 reste la recommandation
+          ophtalmologique de base : toutes les 20 minutes, regarder un objet situé à 20 pieds
+          (environ 6 mètres) pendant 20 secondes.
+        </p>
+
+        <table class="comparison-table fade-in" role="table">
+          <thead>
+            <tr>
+              <th scope="col">Paramètre</th>
+              <th scope="col">Réglage recommandé</th>
+              <th scope="col">Impact sur la migraine</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Luminosité écran</td><td>40–60 % selon ambiance</td><td>Réduit la sollicitation pupillaire</td></tr>
+            <tr><td>Température de couleur</td><td>Mode chaud (3000–4000 K) le soir</td><td>Limite la suppression de mélatonine</td></tr>
+            <tr><td>Fréquence de rafraîchissement</td><td>≥ 120 Hz</td><td>Élimine le scintillement subliminal</td></tr>
+            <tr><td>Distance regard–écran</td><td>50–70 cm minimum</td><td>Réduit la convergence forcée</td></tr>
+            <tr><td>Pause active</td><td>5 min / 45 min de travail</td><td>Prévient la fatigue du muscle ciliaire</td></tr>
+            <tr><td>Filtre lumière bleue</td><td>Activé après 19h00</td><td>Préserve la qualité du sommeil</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          Au-delà des réglages techniques, les <a href="https://femininsante.com/migraine-ophtalmique/" title="Rituels de déconnexion pour réduire la fréquence des migraines">rituels de déconnexion pour réduire la fréquence des migraines</a>
+          jouent un rôle préventif décisif. Instaurer une coupure numérique d'au moins 60 minutes
+          avant le coucher permet de normaliser le cycle circadien, de stabiliser la sécrétion
+          de mélatonine et de réduire l'hyperactivité du réseau par défaut (DMN) — un circuit
+          cérébral suractivé chez les migraineuses chroniques.
+        </p>
+      </section>
+
+      <!-- SECTION 6 : ALIMENTATION -->
+      <section class="content-section fade-in" id="section-alimentation">
+        <h2 class="section-heading question-style">Alimentation et hydratation pour prévenir les maux de tête</h2>
+
+        <p>
+          L'axe nutritionnel est l'un des leviers préventifs les plus puissants et les plus
+          sous-utilisés. L'<a href="https://femininsante.com/migraine-ophtalmique/" title="Alimentation et hydratation pour prévenir les maux de tête">alimentation et l'hydratation pour prévenir les maux de tête</a>
+          font l'objet d'un consensus croissant dans la littérature spécialisée. Plusieurs
+          stratégies nutritionnelles ont démontré une efficacité cliniquement significative.
+        </p>
+
+        <div class="backlink-grid fade-in">
+          <div class="highlight-box teal">
+            <h4>🥗 Régime anti-inflammatoire</h4>
+            <p>Oméga-3 (poissons gras, graines de lin), polyphénols (baies, curcuma), crucifères :
+            ces aliments modulent les voies inflammatoires impliquées dans la genèse de la crise
+            migraineuse.</p>
+          </div>
+          <div class="highlight-box gold">
+            <h4>🫐 Magnésium alimentaire</h4>
+            <p>Amandes (270 mg/100g), épinards, chocolat noir &gt;70 % : viser 400 mg/jour minimum.
+            La supplémentation en magnésium bisglycinate est recommandée en cas d'apports
+            alimentaires insuffisants.</p>
+          </div>
+          <div class="highlight-box rose">
+            <h4>🍷 Aliments déclencheurs à éviter</h4>
+            <p>Tyramine (fromages affinés, charcuteries), glutamate (MSG), nitrites, alcool
+            (particulièrement le vin rouge), caféine en excès ou en sevrage brutal.</p>
+          </div>
+        </div>
+
+        <p>
+          L'hydratation mérite une attention particulière : une déshydratation de seulement 1 %
+          du poids corporel suffit à augmenter de 40 % le risque de crise chez les sujets
+          migraineux. L'objectif est de maintenir une urine claire (jaune pâle) tout au long
+          de la journée, soit approximativement 35 ml/kg/jour, en intégrant les boissons
+          et les apports hydriques alimentaires.
+        </p>
+      </section>
+
+      <!-- SECTION 7 : STRESS -->
+      <section class="content-section fade-in" id="section-stress">
+        <h2 class="section-heading question-style">Gestion du stress et prévention de la migraine visuelle</h2>
+
+        <p>
+          Le stress est le déclencheur numéro un identifié par 70 à 80 % des migraineuses. La
+          <a href="https://femininsante.com/migraine-ophtalmique/" title="Gestion du stress et prévention de la migraine visuelle">gestion du stress pour la prévention de la migraine visuelle</a>
+          ne se réduit pas à la relaxation ponctuelle : elle nécessite une restructuration systémique
+          des habitudes de vie et des réponses comportementales aux stimuli stressants.
+        </p>
+
+        <div class="feature-image-wrap fade-in">
+          <img src="https://femininsante.com/wp-content/uploads/2026/04/prevention-sommeil-eviter-migraine-ophtalmique.webp"
+               alt="Femme dormant paisiblement dans un environnement adapté pour prévenir la migraine ophtalmique"
+               loading="lazy" width="900" height="600" />
+          <p class="image-caption">© Féminin Santé 2026 — Un sommeil de qualité : premier pilier de la prévention migraineuse</p>
+        </div>
+
+        <h3 class="subsection-heading">Techniques de gestion du stress fondées sur les preuves</h3>
+
+        <ul class="step-list fade-in">
+          <li>
+            <div class="step-content">
+              <strong>MBSR (Mindfulness-Based Stress Reduction)</strong>
+              <p>Protocole de 8 semaines développé par Jon Kabat-Zinn. Les méta-analyses récentes
+              montrent une réduction de 40 à 50 % de la fréquence des crises migraineuses chez les
+              participantes qui complètent le programme.</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-content">
+              <strong>Thérapies cognitivo-comportementales (TCC)</strong>
+              <p>Les TCC ciblant la catastrophisation de la douleur — schéma cognitif très fréquent
+              dans la migraine chronique — ont démontré une supériorité au traitement médicamenteux
+              seul dans plusieurs essais randomisés contrôlés.</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-content">
+              <strong>Biofeedback thermique et EMG</strong>
+              <p>Technique de rétroaction biologique permettant d'apprendre à contrôler la
+              vasodilatation périphérique volontaire. Reconnue par la FDA américaine comme traitement
+              non médicamenteux de la migraine depuis 1998.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- SECTION 8 : APAISEMENT AURA -->
+      <section class="content-section fade-in" id="section-aura">
+        <h2 class="section-heading question-style">Approches douces pour calmer une aura visuelle persistante</h2>
+
+        <p>
+          Lorsque l'aura dépasse les 60 minutes (ce que les neurologues nomment « aura prolongée »)
+          ou se répète sans être suivie de céphalée, une évaluation médicale s'impose. Cependant,
+          dans le cadre des auras typiques, plusieurs <a href="https://femininsante.com/migraine-ophtalmique/" title="Approches douces pour calmer une aura visuelle persistante">approches douces pour calmer une aura visuelle persistante</a>
+          peuvent accélérer la résolution des symptômes.
+        </p>
+
+        <div class="highlight-box rose fade-in">
+          <h4>🌿 Aromathérapie ciblée</h4>
+          <p>
+            L'huile essentielle de menthe poivrée (<em>Mentha piperita</em>) appliquée en massage léger
+            sur les tempes et la nuque provoque une vasoconstriction superficielle via le menthol,
+            similaire à l'action des triptans. Diluer à 10 % dans une huile végétale. Une étude
+            randomisée de 2022 (Journal of Headache and Pain) a confirmé son efficacité sur l'intensité
+            douloureuse à 15 et 30 minutes.
+          </p>
+        </div>
+
+        <div class="highlight-box teal fade-in">
+          <h4>🧊 Cryothérapie cervicale</h4>
+          <p>
+            L'application d'une poche de gel froid (4–8 °C) sur les artères carotides — à la jonction
+            du cou et de la nuque — pendant 10 minutes génère une inhibition des voies de signalisation
+            du douleur trigémino-vasculaire. Cet effet vasoconstricteur local peut réduire l'intensité
+            des phénomènes visuels en 10 à 15 minutes.
+          </p>
+        </div>
+
+        <p>
+          Le <a href="https://femininsante.com/migraine-ophtalmique/" title="Guide des premiers soins pour migraineuses actives">guide des premiers soins pour migraineuses actives</a>
+          recommande également la stimulation du point d'acupression P6 (Péricarde 6, situé à
+          trois doigts au-dessus du poignet côté paume), traditionnellement utilisé pour les
+          nausées migraineuses. Des bracelets d'acupression de type Sea-Band offrent une application
+          continue et non invasive.
+        </p>
+      </section>
+
+      <!-- SECTION 9 : QUAND CONSULTER -->
+      <section class="content-section fade-in" id="section-consulter">
+        <h2 class="section-heading question-style">Quand consulter en urgence pour une migraine ophtalmique ?</h2>
+
+        <div class="highlight-box danger fade-in">
+          <h4>🚨 Signes d'alerte nécessitant une consultation médicale immédiate</h4>
+          <p>
+            Certaines manifestations peuvent masquer une pathologie vasculaire sérieuse (AVC, hémorragie
+            méningée, dissection carotidienne). Consultez sans délai si vous présentez : aura durable
+            au-delà de 60 minutes, aura uniquement motrice ou aphasique, déficit visuel complet ou
+            brutal, céphalée « en coup de tonnerre », fièvre associée, ou première crise après 50 ans.
+          </p>
+        </div>
+
+        <div class="feature-image-wrap fade-in">
+          <img src="https://femininsante.com/wp-content/uploads/2026/04/quand-consulter-urgence-migraine-ophtalmique.webp"
+               alt="Infirmière expliquant les signes d'alarme de la migraine ophtalmique qui nécessitent une consultation urgente"
+               loading="lazy" width="900" height="600" />
+          <p class="image-caption">© Féminin Santé 2026 — Reconnaître les signaux d'alarme pour consulter à temps</p>
+        </div>
+      </section>
+
+      <!-- SECTION 10 : PRÉVENTION LONG TERME -->
+      <section class="content-section fade-in" id="section-prevention">
+        <h2 class="section-heading">Prévention durable : construire votre bouclier anti-migraine</h2>
+
+        <p>
+          La prévention de fond de la migraine ophtalmique repose sur un triptyque
+          indissociable : régularité des rythmes biologiques, nutrition adaptée et gestion proactive
+          du stress. La recherche de 2026 insiste sur l'importance de la <em>chronobiologie thérapeutique</em> :
+          maintenir des horaires de lever et de coucher stables (±30 min, y compris le week-end)
+          réduit de 35 % la fréquence mensuelle des crises dans les études longitudinales.
+        </p>
+
+        <p>
+          Pour <a href="https://femininsante.com/migraine-ophtalmique/" title="Rituels de déconnexion pour réduire la fréquence des migraines">réduire la fréquence des migraines grâce à des rituels de déconnexion</a>,
+          une approche structurée en trois phases s'avère efficace : un rituel de décompression
+          le soir (20 min de lecture, bain tiède, journaling), une phase de transition numérique
+          (couper notifications, activer le mode nuit 90 min avant le coucher), et un protocole
+          de sommeil ritualisé (même position, même température ambiante 18–19 °C, obscurité totale).
+        </p>
+
+        <div class="cta-banner fade-in">
+          <h3>Votre guide complet contre la migraine ophtalmique</h3>
+          <p>
+            Retrouvez l'intégralité de nos conseils d'expertes, protocoles médicaux validés
+            et témoignages de patientes sur Féminin Santé — votre magazine de référence
+            pour la santé féminine en 2026.
+          </p>
+          <a href="https://femininsante.com/migraine-ophtalmique/"
+             class="cta-btn" rel="dofollow"
+             title="Soulager une migraine ophtalmique — Guide complet Féminin Santé 2026">
+            📖 Lire le guide complet sur Féminin Santé
+          </a>
+        </div>
+      </section>
+
+      <!-- SECTION 11 : LIENS THÉMATIQUES -->
+      <section class="content-section fade-in" id="section-ressources">
+        <h2 class="section-heading">Ressources thématiques pour approfondir votre prise en charge</h2>
+
+        <p>
+          Pour aller plus loin dans votre compréhension et votre prise en charge de la migraine
+          ophtalmique, Féminin Santé a rassemblé les ressources les plus pertinentes :
+        </p>
+
+        <div class="backlink-grid">
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Comment stopper une migraine avec aura naturellement">
+            <div class="bl-icon">🌿</div>
+            <div class="bl-text">
+              <strong>Comment stopper une migraine avec aura naturellement</strong>
+              <span>Protocoles naturels d'urgence validés</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Réflexes d'urgence en cas de scotome scintillant">
+            <div class="bl-icon">⚡</div>
+            <div class="bl-text">
+              <strong>Réflexes d'urgence en cas de scotome scintillant</strong>
+              <span>Agir dans les 5 premières minutes</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Soulager rapidement une crise de migraine ophtalmique">
+            <div class="bl-icon">❄️</div>
+            <div class="bl-text">
+              <strong>Soulager rapidement une crise de migraine ophtalmique</strong>
+              <span>Méthodes express cliniquement éprouvées</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Impact de la lumière bleue sur les migraines répétitives">
+            <div class="bl-icon">📱</div>
+            <div class="bl-text">
+              <strong>Impact de la lumière bleue sur les migraines répétitives</strong>
+              <span>Comprendre pour mieux protéger vos yeux</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Adopter une routine anti-migraine au quotidien">
+            <div class="bl-icon">🗓️</div>
+            <div class="bl-text">
+              <strong>Adopter une routine anti-migraine au quotidien</strong>
+              <span>Programme de prévention semaine par semaine</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Différence entre migraine classique et migraine avec aura">
+            <div class="bl-icon">🔬</div>
+            <div class="bl-text">
+              <strong>Différence entre migraine classique et migraine avec aura</strong>
+              <span>Diagnostic différentiel expliqué clairement</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Gestion du stress et prévention de la migraine visuelle">
+            <div class="bl-icon">🧘</div>
+            <div class="bl-text">
+              <strong>Gestion du stress et prévention de la migraine visuelle</strong>
+              <span>TCC, biofeedback et MBSR appliqués à la migraine</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Alimentation et hydratation pour prévenir les maux de tête">
+            <div class="bl-icon">🥑</div>
+            <div class="bl-text">
+              <strong>Alimentation et hydratation pour prévenir les maux de tête</strong>
+              <span>Plan nutritionnel anti-migraine complet</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Exercices de respiration pour apaiser les céphalées visuelles">
+            <div class="bl-icon">🫁</div>
+            <div class="bl-text">
+              <strong>Exercices de respiration pour apaiser les céphalées visuelles</strong>
+              <span>Techniques 4-7-8 et cohérence cardiaque</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Comprendre les causes des troubles visuels migraineux">
+            <div class="bl-icon">👁️</div>
+            <div class="bl-text">
+              <strong>Comprendre les causes des troubles visuels migraineux</strong>
+              <span>Neurologie de la CSD et voies trigémino-vasculaires</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Résilience neurologique et mécanismes de la douleur oculaire">
+            <div class="bl-icon">🧠</div>
+            <div class="bl-text">
+              <strong>Résilience neurologique et mécanismes de la douleur oculaire</strong>
+              <span>Neuroplasticité et nouvelles voies thérapeutiques</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Guide des premiers soins pour migraineuses actives">
+            <div class="bl-icon">🩺</div>
+            <div class="bl-text">
+              <strong>Guide des premiers soins pour migraineuses actives</strong>
+              <span>Protocole d'urgence complet à conserver</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Astuces pour limiter la fatigue oculaire devant les écrans">
+            <div class="bl-icon">💻</div>
+            <div class="bl-text">
+              <strong>Astuces pour limiter la fatigue oculaire devant les écrans</strong>
+              <span>Règle 20-20-20 et ergonomie visuelle</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Approches douces pour calmer une aura visuelle persistante">
+            <div class="bl-icon">🌸</div>
+            <div class="bl-text">
+              <strong>Approches douces pour calmer une aura visuelle persistante</strong>
+              <span>Aromathérapie, cryothérapie et acupression</span>
+            </div>
+          </a>
+
+          <a href="https://femininsante.com/migraine-ophtalmique/" class="backlink-card fade-in"
+             title="Rituels de déconnexion pour réduire la fréquence des migraines">
+            <div class="bl-icon">🌙</div>
+            <div class="bl-text">
+              <strong>Rituels de déconnexion pour réduire la fréquence des migraines</strong>
+              <span>Hygiène numérique et chronobiologie thérapeutique</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- CONCLUSION -->
+      <section class="content-section fade-in" id="section-conclusion">
+        <h2 class="section-heading">Conclusion : Reprendre le contrôle de votre santé neurologique</h2>
+
+        <p>
+          La migraine ophtalmique, si elle peut sembler une fatalité pour celles qui en souffrent,
+          est aujourd'hui une pathologie dont la prise en charge a considérablement progressé.
+          L'articulation entre traitement médicamenteux de crise et stratégie préventive holistique —
+          nutrition, gestion du stress, hygiène visuelle et numérique, techniques respiratoires —
+          permet à la majorité des patientes de réduire significativement la fréquence et l'intensité
+          des crises.
+        </p>
+
+        <p>
+          La démarche EEAT (Expertise, Expérience, Autorité, Fiabilité) qui guide notre rédaction
+          chez Féminin Santé nous engage à vous fournir des contenus constamment actualisés,
+          sourcés dans la littérature médicale de référence et validés par des professionnels de santé.
+          Votre bien-être neurologique mérite rien de moins.
+        </p>
+
+        <div class="cta-banner fade-in">
+          <h3>Prête à vaincre votre migraine ophtalmique ?</h3>
+          <p>Découvrez le guide clinique complet, les témoignages de patientes et les protocoles
+          d'experts sur Féminin Santé — votre magazine santé de confiance depuis 2018.</p>
+          <a href="https://femininsante.com/migraine-ophtalmique/"
+             class="cta-btn" rel="dofollow"
+             title="Soulager une migraine ophtalmique — Guide 2026 Féminin Santé">
+            ✨ Accéder au guide complet sur femininsante.com
+          </a>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" aria-label="Navigation et auteure">
+
+      <nav class="toc-widget" aria-label="Sommaire de l'article">
+        <h5>📋 Sommaire</h5>
+        <ul class="toc-list">
+          <li><a href="#section-comprendre">Comprendre les causes visuelles migraineuses</a></li>
+          <li><a href="#section-urgence">Stopper une migraine avec aura naturellement</a></li>
+          <li><a href="#section-respiration">Exercices de respiration</a></li>
+          <li><a href="#section-neurologie">Résilience neurologique</a></li>
+          <li><a href="#section-ecrans">Limiter la fatigue oculaire</a></li>
+          <li><a href="#section-alimentation">Alimentation anti-migraine</a></li>
+          <li><a href="#section-stress">Gestion du stress</a></li>
+          <li><a href="#section-aura">Calmer une aura persistante</a></li>
+          <li><a href="#section-consulter">Quand consulter en urgence ?</a></li>
+          <li><a href="#section-prevention">Prévention durable</a></li>
+          <li><a href="#section-ressources">Toutes les ressources</a></li>
+        </ul>
+      </nav>
+
+      <div class="author-widget">
+        <img src="https://femininsante.com/wp-content/uploads/2026/03/Patricia-Uget-%E2%80%94-Journaliste-feminin-Sante.webp"
+             alt="Patricia Uget, journaliste santé" />
+        <h5>Patricia Uget</h5>
+        <p>Journaliste spécialisée en santé féminine. Auteure de plus de 300 articles médicaux validés par des experts sur Féminin Santé.</p>
+      </div>
+
+    </aside>
+
+  </div><!-- /page-wrapper -->
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-logo">
+      <img src="http://femininsante.com/wp-content/uploads/2026/04/logo-feminin-sante-magazine-2026.png"
+           alt="Logo Féminin Santé Magazine 2026" />
+    </div>
+    <p class="footer-text">
+      <strong>Féminin Santé</strong> est votre magazine de référence pour la santé des femmes — nutrition,
+      bien-être, médecine naturelle et conseils d'experts validés pour prendre soin de vous à chaque
+      étape de la vie.
+    </p>
+    <nav class="footer-links" aria-label="Liens footer">
+      <a href="https://femininsante.com/">Accueil</a>
+      <a href="https://femininsante.com/guide-de-sante-feminine/">Santé</a>
+      <a href="https://femininsante.com/medecine-naturelle/">Médecine Naturelle</a>
+      <a href="https://femininsante.com/nutrition/">Nutrition</a>
+      <a href="https://femininsante.com/migraine-ophtalmique/">Migraine ophtalmique</a>
+    </nav>
+    <p class="footer-copy">© 2026 Féminin Santé — Tous droits réservés. Contenu à titre informatif, non substitutif à un avis médical.</p>
+  </footer>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script>
+  (function() {
+    'use strict';
+
+    /* ---- CUSTOM CURSOR ---- */
+    const dot  = document.getElementById('cursorDot');
+    const ring = document.getElementById('cursorRing');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      dot.style.left = mx + 'px'; dot.style.top = my + 'px';
+    });
+
+    function animateRing() {
+      rx += (mx - rx) * 0.12;
+      ry += (my - ry) * 0.12;
+      ring.style.left = rx + 'px'; ring.style.top = ry + 'px';
+      requestAnimationFrame(animateRing);
+    }
+    animateRing();
+
+    document.querySelectorAll('a, button').forEach(el => {
+      el.addEventListener('mouseenter', () => {
+        dot.style.transform = 'translate(-50%,-50%) scale(1.8)';
+        ring.style.transform = 'translate(-50%,-50%) scale(1.4)';
+        ring.style.opacity = '0.8';
+      });
+      el.addEventListener('mouseleave', () => {
+        dot.style.transform = 'translate(-50%,-50%) scale(1)';
+        ring.style.transform = 'translate(-50%,-50%) scale(1)';
+        ring.style.opacity = '0.5';
+      });
+    });
+
+    // Hide cursor on mobile
+    if ('ontouchstart' in window) {
+      dot.style.display = 'none';
+      ring.style.display = 'none';
+    }
+
+    /* ---- READING PROGRESS ---- */
+    const progress = document.getElementById('readingProgress');
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      progress.style.width = pct + '%';
+    }, { passive: true });
+
+    /* ---- HERO PARALLAX ---- */
+    const heroBg = document.getElementById('heroBg');
+    window.addEventListener('scroll', () => {
+      if (heroBg) {
+        const y = window.scrollY * 0.4;
+        heroBg.style.transform = 'scale(1.05) translateY(' + y + 'px)';
+      }
+    }, { passive: true });
+
+    /* ---- INTERSECTION OBSERVER (fade-in) ---- */
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const delay = parseFloat(el.dataset.delay || '0');
+          setTimeout(() => {
+            el.classList.add('visible');
+          }, delay * 1000);
+          observer.unobserve(el);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.fade-in, .fade-in-left').forEach((el, i) => {
+      const row = Math.floor(i / 3);
+      el.dataset.delay = (i % 3) * 0.08 + row * 0.05;
+      observer.observe(el);
+    });
+
+    /* ---- HERO CONTENT IMMEDIATE FADE ---- */
+    setTimeout(() => {
+      const hc = document.getElementById('heroContent');
+      if (hc) hc.classList.add('visible');
+    }, 200);
+
+    /* ---- FLOATING PARTICLES ---- */
+    const bg = document.getElementById('particlesBg');
+    const colors = ['rgba(212,86,122,0.5)', 'rgba(201,150,42,0.4)', 'rgba(58,140,126,0.4)', 'rgba(61,26,46,0.3)'];
+
+    function createParticle() {
+      const p = document.createElement('div');
+      p.className = 'p-dot';
+      const size = 4 + Math.random() * 10;
+      p.style.cssText = `
+        width:${size}px;height:${size}px;
+        left:${Math.random()*100}vw;
+        bottom:-20px;
+        background:${colors[Math.floor(Math.random()*colors.length)]};
+        animation-duration:${10 + Math.random()*20}s;
+        animation-delay:${Math.random()*5}s;
+      `;
+      bg.appendChild(p);
+      setTimeout(() => p.remove(), 30000);
+    }
+
+    setInterval(createParticle, 1200);
+    for (let i = 0; i < 6; i++) setTimeout(createParticle, i * 400);
+
+    /* ---- SMOOTH TOC SCROLL ---- */
+    document.querySelectorAll('.toc-list a').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          const offset = 90;
+          const top = target.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      });
+    });
+
+    /* ---- ACTIVE TOC HIGHLIGHT ---- */
+    const sections = document.querySelectorAll('section[id]');
+    const tocLinks = document.querySelectorAll('.toc-list a');
+
+    function updateTOC() {
+      let current = '';
+      sections.forEach(sec => {
+        const top = sec.getBoundingClientRect().top;
+        if (top <= 120) current = sec.id;
+      });
+      tocLinks.forEach(link => {
+        link.style.color = '';
+        link.style.fontWeight = '';
+        if (link.getAttribute('href') === '#' + current) {
+          link.style.color = 'var(--rose-deep)';
+          link.style.fontWeight = '600';
+        }
+      });
+    }
+
+    window.addEventListener('scroll', updateTOC, { passive: true });
+
+    /* ---- IMAGE LAZY LOAD SHIMMER ---- */
+    document.querySelectorAll('.feature-image-wrap img').forEach(img => {
+      img.style.transition = 'opacity 0.5s ease, transform 0.7s ease';
+      img.style.opacity = '0';
+      if (img.complete) {
+        img.style.opacity = '1';
+      } else {
+        img.addEventListener('load', () => { img.style.opacity = '1'; });
+      }
+    });
+
+    /* ---- BACKLINK CARD MICRO-ANIMATION ---- */
+    document.querySelectorAll('.backlink-card').forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.querySelector('.bl-icon').style.transform = 'scale(1.15) rotate(-5deg)';
+        this.querySelector('.bl-icon').style.transition = 'transform 0.3s ease';
+      });
+      card.addEventListener('mouseleave', function() {
+        this.querySelector('.bl-icon').style.transform = '';
+      });
+    });
+
+    /* ---- FACT CARD COUNTER ANIMATION ---- */
+    function animateNumber(el, target, suffix) {
+      let start = 0;
+      const isPercent = suffix === '%';
+      const duration = 1200;
+      const step = (timestamp) => {
+        if (!start) start = timestamp;
+        const progress = Math.min((timestamp - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const current = Math.round(eased * parseFloat(target));
+        el.textContent = current + suffix;
+        if (progress < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    }
+
+    const factObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const nums = entry.target.querySelectorAll('.fact-num');
+          nums.forEach(n => {
+            const text = n.textContent;
+            const match = text.match(/(\d+(?:\.\d+)?)([^\d]*)/);
+            if (match && !n.dataset.animated) {
+              n.dataset.animated = true;
+              animateNumber(n, match[1], match[2] || '');
+            }
+          });
+          factObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    document.querySelectorAll('.fact-grid').forEach(g => factObserver.observe(g));
+
+  })();
+  </script>
+
+</body>
+</html>
