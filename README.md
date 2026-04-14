@@ -11,7 +11,7 @@ La migraine ophtalmique, bien que souvent bénigne, peut être terrifiante et ha
 ## 🚀 Pourquoi consulter l'article complet ?
 Pour percer le cycle de la douleur, une compréhension approfondie est nécessaire. Notre article complet détaille la **santé préventive** et les rituels de déconnexion pour limiter la fatigue oculaire.
 
-📖 **Lire l'article complet ici :** [Migraine ophtalmique : 5 Réflexes pour un soulagement rapide](https://femininsante.com/votre-lien-article)
+📖 **Lire l'article complet ici :** [Migraine ophtalmique : 5 Réflexes pour un soulagement rapide](https://feminin-sante.github.io/migraine-ophtalmique-soulagement-rapide-guide-2026-hub/)
 
 ## 🛠️ Contenu du Repository
 - Fiches de réflexes d'urgence.
